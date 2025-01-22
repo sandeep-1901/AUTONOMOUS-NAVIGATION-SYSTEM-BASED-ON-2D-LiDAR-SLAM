@@ -1,0 +1,103 @@
+[0.022s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_localization
+[0.149s] -- The C compiler identification is GNU 13.3.0
+[0.280s] -- The CXX compiler identification is GNU 13.3.0
+[0.302s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.445s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.666s] -- Detecting CXX compile features
+[0.666s] -- Detecting CXX compile features - done
+[0.673s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.901s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.085s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.187s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.235s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.466s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.469s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.630s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.672s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.846s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.850s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.950s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.252s] -- Configuring done (2.2s)
+[2.284s] -- Generating done (0.0s)
+[2.286s] -- Build files have been written to: /home/sandeep/bumperbot_ws/build/bumperbot_localization
+[2.306s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_localization
+[2.308s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[2.426s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[2.426s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[2.426s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[2.744s] running egg_info
+[2.745s] creating bumperbot_localization.egg-info
+[2.803s] writing bumperbot_localization.egg-info/PKG-INFO
+[2.803s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[2.803s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[2.804s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.931s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.932s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[3.011s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[16.600s] [ 75%] [32m[1mLinking CXX executable imu_republisher[0m
+[17.387s] [ 75%] Built target imu_republisher
+[20.244s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[20.835s] [100%] Built target kalman_filter
+[20.853s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[20.853s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_localization
+[20.863s] -- Install configuration: ""
+[20.864s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[20.867s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[20.867s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+[20.867s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[20.868s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[20.868s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+[20.868s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[20.868s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+[20.868s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+[20.868s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+[20.868s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py
+[20.868s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+[20.911s] Listing '/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+[20.911s] Compiling '/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py'...
+[20.911s] Compiling '/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py'...
+[20.912s] Compiling '/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py'...
+[20.912s] Compiling '/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py'...
+[20.919s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/include/include
+[20.919s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[20.919s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[20.919s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[20.920s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[20.925s] -- Set non-toolchain portion of runtime path of "/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter" to ""
+[20.925s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[20.930s] -- Set non-toolchain portion of runtime path of "/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher" to ""
+[20.930s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[20.930s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[20.930s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[20.931s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[20.931s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/odometry_motion_model.rviz
+[20.931s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[20.931s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[20.931s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[20.931s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[20.931s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[20.931s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[20.932s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[20.932s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[20.932s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[20.932s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[20.932s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[20.933s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[20.933s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[20.933s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[20.933s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[20.933s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[20.933s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[20.934s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[20.934s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[20.934s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[20.939s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_localization

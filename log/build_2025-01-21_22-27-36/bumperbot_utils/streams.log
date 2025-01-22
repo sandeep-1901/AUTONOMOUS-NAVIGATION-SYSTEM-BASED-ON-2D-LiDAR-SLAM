@@ -1,0 +1,22 @@
+[0.053s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_utils -- -j8 -l8
+[0.307s] [100%] Built target safety_stop
+[0.350s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_utils -- -j8 -l8
+[0.350s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_utils
+[0.351s] -- Install configuration: ""
+[0.351s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[0.351s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[0.351s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[0.351s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[0.351s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[0.351s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[0.351s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[0.351s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[0.352s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[0.352s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[0.352s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[0.352s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[0.352s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[0.352s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[0.352s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[0.352s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[0.353s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_utils

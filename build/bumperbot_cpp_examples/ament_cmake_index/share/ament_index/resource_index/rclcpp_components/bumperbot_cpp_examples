@@ -1,0 +1,2 @@
+bumperbot_cpp_examples::SimpleActionServer;lib/libsimple_action_server.so
+bumperbot_cpp_examples::SimpleActionClient;lib/libsimple_action_client.so
