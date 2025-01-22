@@ -4,7 +4,7 @@
   <name>bumperbot_mapping</name>
   <version>0.0.0</version>
   <description>Bumperbot Mapping Package</description>
-  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
+  <maintainer email="sandeeptha055@gmail.com">Sandeepjr__19</maintainer>
   <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
