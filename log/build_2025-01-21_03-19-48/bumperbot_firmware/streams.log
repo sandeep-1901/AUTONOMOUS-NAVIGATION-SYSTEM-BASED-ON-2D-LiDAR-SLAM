@@ -1,0 +1,112 @@
+[0.024s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_firmware
+[0.155s] -- The C compiler identification is GNU 13.3.0
+[0.283s] -- The CXX compiler identification is GNU 13.3.0
+[0.308s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.448s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.448s] -- Detecting C compile features
+[0.448s] -- Detecting C compile features - done
+[0.463s] -- Detecting CXX compiler ABI info
+[0.665s] -- Detecting CXX compiler ABI info - done
+[0.685s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.686s] -- Detecting CXX compile features
+[0.687s] -- Detecting CXX compile features - done
+[0.693s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.896s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.076s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.149s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.174s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.369s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.374s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.516s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.549s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.768s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.774s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.801s] -- Found hardware_interface: 4.20.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[2.308s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[2.309s] -- Checking for module 'libserial'
+[2.329s] --   Found libserial, version 1.0.0
+[2.723s] -- Configuring done (2.7s)
+[2.800s] -- Generating done (0.0s)
+[2.829s] -- Build files have been written to: /home/sandeep/bumperbot_ws/build/bumperbot_firmware
+[2.861s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_firmware
+[2.862s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_firmware -- -j8 -l8
+[2.987s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[2.987s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[2.987s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[2.987s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[3.520s] running egg_info
+[3.524s] creating bumperbot_firmware.egg-info
+[3.556s] writing bumperbot_firmware.egg-info/PKG-INFO
+[3.557s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[3.557s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[3.557s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[3.672s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[3.673s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[3.743s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[12.197s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[12.757s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[12.816s] [ 83%] Built target bumperbot_firmware
+[13.353s] [ 83%] Built target simple_serial_receiver
+[17.857s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[18.326s] [100%] Built target simple_serial_transmitter
+[18.355s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_firmware -- -j8 -l8
+[18.356s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_firmware
+[18.367s] -- Install configuration: ""
+[18.367s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[18.368s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[18.368s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info
+[18.368s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[18.368s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[18.369s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[18.369s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[18.370s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware
+[18.370s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py
+[18.370s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py
+[18.371s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/mpu6050_driver.py
+[18.372s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py
+[18.438s] Listing '/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware'...
+[18.438s] Compiling '/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py'...
+[18.438s] Compiling '/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/mpu6050_driver.py'...
+[18.439s] Compiling '/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py'...
+[18.439s] Compiling '/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+[18.447s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[18.455s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[18.455s] -- Set non-toolchain portion of runtime path of "/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+[18.455s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/include/include
+[18.455s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[18.456s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[18.456s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[18.456s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[18.456s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[18.456s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[18.456s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[18.456s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[18.464s] -- Set non-toolchain portion of runtime path of "/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver" to ""
+[18.464s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[18.464s] -- Set non-toolchain portion of runtime path of "/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[18.468s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[18.469s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[18.471s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[18.471s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[18.471s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[18.471s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[18.471s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[18.471s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[18.471s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[18.472s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[18.472s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[18.472s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[18.473s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[18.473s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[18.473s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[18.474s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.474s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[18.474s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.475s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[18.475s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[18.475s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[18.481s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_firmware

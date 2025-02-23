@@ -1,0 +1,19 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sandeep/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/home/sandeep/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages",
+        "/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages",
+        "/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages",
+        "/home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sandeep/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/home/sandeep/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages",
+        "/home/sandeep/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages",
+        "/home/sandeep/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages",
+        "/home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
+}

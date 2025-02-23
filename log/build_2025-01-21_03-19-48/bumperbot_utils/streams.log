@@ -1,0 +1,60 @@
+[0.043s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_utils
+[1.583s] -- The C compiler identification is GNU 13.3.0
+[1.583s] -- The CXX compiler identification is GNU 13.3.0
+[1.583s] -- Detecting C compiler ABI info
+[1.583s] -- Detecting C compiler ABI info - done
+[1.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.583s] -- Detecting C compile features
+[1.583s] -- Detecting C compile features - done
+[1.583s] -- Detecting CXX compiler ABI info
+[1.584s] -- Detecting CXX compiler ABI info - done
+[1.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.584s] -- Detecting CXX compile features
+[1.584s] -- Detecting CXX compile features - done
+[1.584s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.584s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.584s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.584s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.585s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.585s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.586s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.586s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.586s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.586s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.702s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.710s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.808s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.850s] -- Found twist_mux_msgs: 3.0.1 (/opt/ros/jazzy/share/twist_mux_msgs/cmake)
+[1.942s] -- Found rclcpp_action: 28.1.5 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.963s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.119s] -- Configuring done (2.1s)
+[2.131s] -- Generating done (0.0s)
+[2.135s] -- Build files have been written to: /home/sandeep/bumperbot_ws/build/bumperbot_utils
+[2.146s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_utils
+[2.147s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_utils -- -j8 -l8
+[2.205s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o[0m
+[21.326s] [100%] [32m[1mLinking CXX executable safety_stop[0m
+[22.083s] [100%] Built target safety_stop
+[22.119s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_utils -- -j8 -l8
+[22.120s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_utils
+[22.138s] -- Install configuration: ""
+[22.142s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[22.153s] -- Set non-toolchain portion of runtime path of "/home/sandeep/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop" to ""
+[22.154s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[22.156s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[22.159s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[22.160s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[22.160s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[22.161s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[22.162s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[22.162s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[22.162s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[22.162s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[22.178s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[22.178s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[22.178s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[22.178s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[22.178s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[22.179s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_utils

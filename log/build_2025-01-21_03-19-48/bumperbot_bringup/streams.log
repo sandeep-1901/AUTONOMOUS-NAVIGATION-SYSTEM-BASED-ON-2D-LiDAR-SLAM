@@ -1,0 +1,42 @@
+[0.028s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_bringup
+[0.162s] -- The C compiler identification is GNU 13.3.0
+[0.306s] -- The CXX compiler identification is GNU 13.3.0
+[0.327s] -- Detecting C compiler ABI info
+[0.461s] -- Detecting C compiler ABI info - done
+[0.502s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.502s] -- Detecting C compile features
+[0.503s] -- Detecting C compile features - done
+[0.517s] -- Detecting CXX compiler ABI info
+[0.684s] -- Detecting CXX compiler ABI info - done
+[0.703s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.703s] -- Detecting CXX compile features
+[0.703s] -- Detecting CXX compile features - done
+[0.704s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.908s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.268s] -- Configuring done (1.2s)
+[1.273s] -- Generating done (0.0s)
+[1.286s] -- Build files have been written to: /home/sandeep/bumperbot_ws/build/bumperbot_bringup
+[1.297s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_bringup
+[1.299s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_bringup -- -j8 -l8
+[2.167s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_bringup -- -j8 -l8
+[2.179s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_bringup
+[2.274s] -- Install configuration: ""
+[2.274s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch
+[2.274s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch/real_robot.launch.py
+[2.274s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch/simulated_robot.launch.py
+[2.275s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/ament_index/resource_index/package_run_dependencies/bumperbot_bringup
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/ament_index/resource_index/parent_prefix_path/bumperbot_bringup
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.sh
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.dsv
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.sh
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.dsv
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.bash
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.sh
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.zsh
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.dsv
+[2.276s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv
+[2.277s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/ament_index/resource_index/packages/bumperbot_bringup
+[2.277s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig.cmake
+[2.277s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig-version.cmake
+[2.277s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.xml
+[2.291s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_bringup

@@ -1,0 +1,62 @@
+[0.028s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.128s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.129s] [ 50%] Built target noisy_controller
+[0.131s] [100%] Built target simple_controller
+[0.479s] running egg_info
+[0.511s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.514s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.514s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.617s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.619s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.659s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[0.672s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.673s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_controller
+[0.684s] -- Install configuration: ""
+[0.684s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[0.685s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[0.685s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[0.685s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[0.685s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.686s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[0.688s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.688s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[0.688s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+[0.688s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py
+[0.688s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[0.688s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py
+[0.744s] Listing '/home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/include/include
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[0.764s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[0.765s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[0.766s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[0.767s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[0.767s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[0.767s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[0.768s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[0.772s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[0.772s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[0.772s] -- Up-to-date: /home/sandeep/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[0.782s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_controller

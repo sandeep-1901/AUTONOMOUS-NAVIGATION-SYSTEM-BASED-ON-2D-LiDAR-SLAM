@@ -1,0 +1,68 @@
+[0.022s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_mapping
+[1.278s] -- The C compiler identification is GNU 13.3.0
+[1.278s] -- The CXX compiler identification is GNU 13.3.0
+[1.278s] -- Detecting C compiler ABI info
+[1.278s] -- Detecting C compiler ABI info - done
+[1.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.279s] -- Detecting C compile features
+[1.279s] -- Detecting C compile features - done
+[1.279s] -- Detecting CXX compiler ABI info
+[1.279s] -- Detecting CXX compiler ABI info - done
+[1.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.279s] -- Detecting CXX compile features
+[1.279s] -- Detecting CXX compile features - done
+[1.279s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.279s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.280s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.280s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.280s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.404s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.408s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.539s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.577s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.760s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.864s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.909s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.221s] -- Configuring done (2.2s)
+[2.239s] -- Generating done (0.0s)
+[2.246s] -- Build files have been written to: /home/sandeep/bumperbot_ws/build/bumperbot_mapping
+[2.300s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sandeep/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/sandeep/bumperbot_ws/install/bumperbot_mapping
+[2.301s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_mapping -- -j8 -l8
+[2.364s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o[0m
+[20.916s] [100%] [32m[1mLinking CXX executable mapping_with_known_poses[0m
+[21.472s] [100%] Built target mapping_with_known_poses
+[21.487s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sandeep/bumperbot_ws/build/bumperbot_mapping -- -j8 -l8
+[21.489s] Invoking command in '/home/sandeep/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_mapping
+[21.500s] -- Install configuration: ""
+[21.500s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/include/include
+[21.500s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[21.500s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[21.500s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[21.505s] -- Set non-toolchain portion of runtime path of "/home/sandeep/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses" to ""
+[21.506s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[21.506s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[21.506s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[21.507s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[21.507s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[21.507s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[21.508s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[21.508s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[21.508s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[21.508s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[21.508s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[21.508s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[21.508s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[21.509s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[21.509s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[21.509s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[21.509s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[21.509s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[21.509s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[21.510s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[21.510s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[21.510s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[21.510s] -- Installing: /home/sandeep/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[21.514s] Invoked command in '/home/sandeep/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sandeep/bumperbot_ws/build/bumperbot_mapping
