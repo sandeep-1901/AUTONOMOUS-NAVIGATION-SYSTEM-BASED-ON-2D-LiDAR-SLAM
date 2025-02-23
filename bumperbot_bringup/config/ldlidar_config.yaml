@@ -1,0 +1,13 @@
+ldlidar_node:
+  ros__parameters:
+    channel_type: serial
+    port_name: "/dev/lidar"
+    serial_baudrate: 230400
+    product_name: LDLiDAR_LD14P
+    laser_scan_topic_name: scan
+    frame_id: laser_link
+    inverted: false
+    angle_compensate: true
+    point_cloud_2d_topic_name: pointcloud2d
+    scan_mode: Sensitivity
+    laser_scan_dir: true
